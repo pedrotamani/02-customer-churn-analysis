@@ -1,50 +1,58 @@
 # 📊 Telecom Customer Churn Analysis
 
-Exploratory Data Analysis of customer churn in a telecommunications company.
+**Goal:** Understand customer behavior and identify drivers of churn to support retention strategies.
+
+**Role:** I converted customer data into **insights that guide management decisions**.  
+**Focus:** Operational impact, retention strategy, actionable analysis.
 
 ---
 
 ## 📌 Project Overview
 
-Customer churn is a critical challenge for telecommunications companies because losing existing customers directly impacts revenue and increases acquisition costs.
-
-This project performs an exploratory data analysis (EDA) to identify patterns and variables associated with customer churn. The goal is to better understand customer behavior and detect factors that may influence retention.
+Churn affects revenue directly. This project performs **exploratory analysis** to detect patterns influencing churn, so businesses can act **before losing customers**.
 
 ---
 
 ## 📂 Dataset
 
-The dataset includes customer information such as:
+Includes:
 
-- Demographic variables
-- Contract type
-- Services subscribed
-- Monthly charges
-- Customer tenure
-- Churn status
+- Demographics  
+- Contract type  
+- Subscribed services  
+- Monthly charges  
+- Customer tenure  
+- Churn status  
 
-These variables allow the exploration of relationships between customer characteristics and churn behavior.
-
----
-
-## 🛠 Tools and Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Google Colab
+Used to understand behavior and retention risks.
 
 ---
 
-## 🔎 Key Analysis Performed
+## 🛠 Tools & Technologies
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Distribution analysis of key variables
-- Customer segmentation
-- Visualization of churn patterns
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- Google Colab  
+- Excel & Power BI  
+
+> Analysis is a **decision support tool**, not programming demonstration.
+
+---
+
+## 🔎 Key Analysis
+
+- Data cleaning & preprocessing  
+- EDA to visualize churn patterns  
+- Customer segmentation  
+- Relationship analysis (contract, tenure, charges)  
+
+---
+
+## 📈 Key Insights
+
+- Contract types impact churn probability  
+- Tenure and monthly charges influence retention  
+- Service combinations can increase churn risk  
+- **Guides management on retention strategies**  
 
 ---
 
@@ -65,43 +73,28 @@ customer-churn-analysis/
 │
 └── README.md
 
-data/ → dataset used in the analysis  
-notebooks/ → Jupyter notebook containing the full analysis  
-README.md → project documentation  
+- data/       → dataset used in the analysis  
+- notebooks/  → Jupyter notebook containing the full analysis  
+- outputs/    → generated charts  
+- README.md   → project documentation  
 ```
----
-
-## 📈 Key Insights
-
-The analysis identifies several patterns related to customer churn, including:
-
-- The influence of contract type on churn probability
-- The relationship between tenure and churn
-- The impact of monthly charges on customer retention
-- Service combinations associated with higher churn risk
-
-These insights can support data-driven decision making for customer retention strategies.
-
 ---
 
 ## ▶️ Run the Notebook
 
-You can explore and run the analysis directly in **Google Colab**.
-
-1. Click the **Open in Colab** button below  
-2. Upload the CSV files if necessary  
-3. Run the notebook cells step by step
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](PASTE_YOUR_COLAB_NOTEBOOK_LINK_HERE)
+- Open in Google Colab  
+- Upload dataset  
+- Execute step by step  
 
 ---
 
 ## 👤 Author
 
 Pedro Tamani  
-Economist | Business Analysis | Data-Driven Insights  
+Economist | Business Analysis | Decision Support   
 
 📍 Based in Lima, Peru  
+
 🔗 LinkedIn: 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-PedroTamani-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pedrotamani)
