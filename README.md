@@ -1,82 +1,105 @@
-## 📊 Objetivo del Proyecto
-Este proyecto busca identificar los factores clave que influyen en la evasión de clientes (Churn) en una empresa de telecomunicaciones, mediante:
+# 📊 Telecom Customer Churn Analysis
 
-🔹 Limpieza y transformación de datos.
-
-🔹 Análisis exploratorio (EDA) con visualizaciones.
-
-🔹 Recomendaciones estratégicas para reducir el abandono.
+Exploratory Data Analysis of customer churn in a telecommunications company.
 
 ---
 
-## 🎯 Problema clave: 
+## 📌 Project Overview
 
-   El 27% de los clientes abandona el servicio, impactando en la rentabilidad.
+Customer churn is a critical challenge for telecommunications companies because losing existing customers directly impacts revenue and increases acquisition costs.
+
+This project performs an exploratory data analysis (EDA) to identify patterns and variables associated with customer churn. The goal is to better understand customer behavior and detect factors that may influence retention.
 
 ---
 
-## 📂 Estructura del Proyecto
+## 📂 Dataset
+
+The dataset includes customer information such as:
+
+- Demographic variables
+- Contract type
+- Services subscribed
+- Monthly charges
+- Customer tenure
+- Churn status
+
+These variables allow the exploration of relationships between customer characteristics and churn behavior.
+
+---
+
+## 🛠 Tools and Technologies
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+---
+
+## 🔎 Key Analysis Performed
+
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA)
+- Distribution analysis of key variables
+- Customer segmentation
+- Visualization of churn patterns
+
+---
+
+## 📁 Repository Structure
 ```
-├── data/  
-│   ├── raw/                       # Datos originales (CSV)  
-│   └── processed/                 # Datos limpios  
-├── notebooks/  
-│   ├── 1_limpieza_datos.ipynb     # Limpieza y preprocesamiento  
-│   └── 2_analisis_churn.ipynb     # EDA y visualizaciones  
-├── outputs/  
-│   ├── graphs/                    # Gráficos exportados  
-│   └── reports/                   # Informes en PDF/Markdown  
-├── README.md                      # Este archivo  
-└── requirements.txt               # Dependencias  
-````
+customer-churn-analysis/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── data_cleaning.ipynb
+│   └── churn_analysis.ipynb
+│
+├── outputs/
+│   └── charts/
+│
+└── README.md
+
+data/ → dataset used in the analysis  
+notebooks/ → Jupyter notebook containing the full analysis  
+README.md → project documentation  
+```
 ---
 
-## 🔍 Principales Hallazgos
+## 📈 Key Insights
 
-### 📈 Visualizaciones Clave
+The analysis identifies several patterns related to customer churn, including:
 
-1. **Distribución de Churn**
-     - 73% permanecen vs 27% abandonan
+- The influence of contract type on churn probability
+- The relationship between tenure and churn
+- The impact of monthly charges on customer retention
+- Service combinations associated with higher churn risk
 
-2. **Churn por Tipo de Contrato**
-      - Contratos mensuales tienen 3x mayor tasa de abandono
-
-3. **Correlación entre Variables**
-      - Antigüedad (tenure) muestra mayor correlación negativa con Churn
-
-### 💡 Insights Principales
-
-🔹 📉 **Clientes nuevos** (<1 año) representan 60% de los abandonos
-
-🔹 💰 **Pagos mensuales altos** (>$75) aumentan riesgo de abandono
-
-🔹 📅 **Contratos a largo plazo** reducen Churn en 65%
-
-🔹 🛡️ **Servicios adicionales** disminuyen probabilidad de abandono
-
+These insights can support data-driven decision making for customer retention strategies.
 
 ---
 
-## 🛠️ Cómo Ejecutar el Proyecto
+## ▶️ Run the Notebook
 
-### 📌 Requisitos Previos
+You can explore and run the analysis directly in **Google Colab**.
 
-🔹 Python 3.8+
+1. Click the **Open in Colab** button below  
+2. Upload the CSV files if necessary  
+3. Run the notebook cells step by step
 
-🔹 Jupyter Notebook
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](PASTE_YOUR_COLAB_NOTEBOOK_LINK_HERE)
 
-🔹 Librerías listadas en `requirements.txt`
-
-### Instalación
-
-```bash
-git clone https://github.com/tu_usuario/telecom-churn-analysis.git
-cd telecom-churn-analysis
-pip install -r requirements.txt
-````
 ---
 
-## 📬 Contacto
+## 👤 Author
 
-Cualquier duda o sugerencia, puedes escribirme a pedro.tamani@gmail.com
+Pedro TR  
+Economist | Data Analysis | Business Insights
+
+🔗 LinkedIn: https://www.linkedin.com/in/pedrotamani/
 
