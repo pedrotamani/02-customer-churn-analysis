@@ -98,8 +98,13 @@ You can explore and run the analysis directly in **Google Colab**.
 
 ## 👤 Author
 
-Pedro TR  
-Economist | Data Analysis | Business Insights
+Pedro Tamani  
+Economist | Business Analysis | Data-Driven Insights  
 
-🔗 LinkedIn: https://www.linkedin.com/in/pedrotamani/
+📍 Based in Lima, Peru  
+🔗 LinkedIn: 
+
+<a href="linkedin.com/in/pedrotamani/">
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=LinkedIn&color=0077B5&logo=linkedin&logoColor=FFFFFF&label=" height="40">
+</a>
 
